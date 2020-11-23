@@ -48,4 +48,4 @@ def Forward(c, s, p):
         for j in range(32):
             for k in range(32): c[j] ^= d[k] * ((p[j] >> k) & 1)
     return ''.join([chr(s[c[i * 2]] ^ s[c[i * 2 + 1] + 256]) for i in range(16)])
-if __name__ == '__main__': print(Forward(input, confusion, diffusion) == "Hire me!!!!!!!!")
+if __name__ == '__main__': print(Forward(input, confusion, diffusion) == "Hire me!!!!!!!!\x00")
