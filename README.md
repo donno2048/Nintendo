@@ -1,5 +1,5 @@
 # Nintendo
-Python implementation for Nintendo hire me challenge
+Python implementation for [Nintendo hire me challenge](https://www.nerd.nintendo.com/files/HireMe) by NERD (Nintendo European Research & Development)
 
 You need to change the input list, and **only** the input list to get "True" as the output
 
